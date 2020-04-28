@@ -1,0 +1,140 @@
+#corpo{
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;	 	
+}/*Inicio Header */
+header {
+	position: relative;
+}
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+.menu-opcoes ul li {
+	font-size: 15px;
+	display: inline;
+	margin-left: 20px;
+		/*colocando o menu de opções a direita */
+		position: relative; 
+		float: right;		
+}
+.menu-opcoes a {
+	color: #003366;
+}
+.sacola {	
+	background-image: url(imagens/sacola.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+
+		font-size: 14px;
+		padding-right: 35px;
+		text-align: right;
+		width: 140px; 
+	padding-top: 8px;
+	position: absolute; /*coloca o icone da sacola a direita */
+	top: 0; /*coloca o icone da sacola a direita */
+	right: 0; /*coloca o icone da sacola a direita */
+}
+/* Fim Hearder */
+
+.title{
+	background-image: url(imagens/sobre-background.jpg);
+	padding: 10px; 	
+
+}
+h1 + p{
+	text-indent: 0;
+}	
+h2 {
+	border-bottom: 2px solid #333333;
+	margin-top: 30px; 	
+}
+p{
+	padding: 0 45px;
+	text-indent: 15px;
+}
+p::first-letter{
+	font-weight: bold; /*pseudo-elemento*/
+}
+:not(p) + p::first-line{
+	font-variant: small-caps;
+}
+
+}
+/*Layout das Imagens*/
+
+figure {
+	background-color: #F2EDED;
+	border: 2px solid #ccc;
+	text-align: center;
+	padding: 15px;
+	margin:30px;
+}
+#centro-distribuicao {
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px
+
+}
+figcaption {
+	font-style: italic;	
+	margin-top: 10px;
+}
+#familia-pelho{
+	float: right;
+	margin: 0 0 10px 10px;
+}
+/* Fim Layout Imagens */
+
+/* Inicio Rodapé */
+
+footer {
+background-image: url(../img/fundo-rodape.png);
+clear: both;
+padding: 20px 0;
+
+
+}
+footer .container{
+	position: relative;
+
+}
+.social{
+	position: absolute;
+	top: 12px;
+	right: 0;
+}
+.social a {
+/* tamanho da imagem */
+	height: 32px;
+	width: 32px;
+
+/* image replacement */
+	display: block;
+	text-indent: -9999px;
+
+}
+.social li{
+	float: right;
+	margin-left: 25px;
+
+}
+	
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+	position: relative;
+}
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);
+	position: relative;
+}
+.social a[href*="plus.google.com"] {
+	background-image: url(../img/googleplus.png);
+	position: relative;
+}
+.copyright a {
+
+}
+/* Fim Rodapé */
