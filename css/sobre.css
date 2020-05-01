@@ -16,9 +16,10 @@ header {
 	font-size: 15px;
 	display: inline;
 	margin-left: 20px;
-		/*colocando o menu de opções a direita */
-		position: relative; 
-		float: right;		
+	
+	/*colocando o menu de opções a direita */
+	position: relative; 
+	float: right;		
 }
 .menu-opcoes a {
 	color: #003366;
@@ -62,7 +63,6 @@ p::first-letter{
 	font-variant: small-caps;
 }
 
-}
 /*Layout das Imagens*/
 
 figure {
@@ -95,11 +95,9 @@ background-image: url(../img/fundo-rodape.png);
 clear: both;
 padding: 20px 0;
 
-
 }
 footer .container{
 	position: relative;
-
 }
 .social{
 	position: absolute;
@@ -114,14 +112,11 @@ footer .container{
 /* image replacement */
 	display: block;
 	text-indent: -9999px;
-
 }
 .social li{
 	float: right;
 	margin-left: 25px;
-
-}
-	
+}	
 .social a[href*="facebook.com"] {
 	background-image: url(../img/facebook.png);
 	position: relative;
