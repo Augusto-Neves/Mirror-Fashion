@@ -34,3 +34,8 @@ label[for=azul]::after{
     position: relative;
     padding-top: 90px;
 }
+.cores legend{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
