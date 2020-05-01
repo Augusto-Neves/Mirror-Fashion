@@ -1,0 +1,4 @@
+.cores label::after{
+    content: '';
+    
+}
