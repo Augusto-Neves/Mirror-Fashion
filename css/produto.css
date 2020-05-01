@@ -41,6 +41,14 @@
     box-sizing: border-box;
     position: absolute;
     top: 30px;
+
+    border: 6px solid rgba(0, 0, 0, 0);
+    transition: 1s;
+
+    cursor: pointer;
+}
+.cores label:hover::after {
+    border: 6px solid rgba(0, 0, 0, 0.1);
 }
 label[for=verde]::after {
     background-color: #33cc66;
