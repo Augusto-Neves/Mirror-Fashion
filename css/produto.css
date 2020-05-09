@@ -29,7 +29,7 @@
 
     display: block;
     padding: 0.5em 1em;
-    margin: 1em 0;
+    margin: 4em -1px;
 }
 .cores label::after {
     content: '';
