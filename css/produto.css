@@ -111,4 +111,12 @@ label[for=azul]::after {
     .produto{
         font-size: 1.2em;
     }
+    fieldset{
+        display: inline-block;
+        vertical-align: top;
+
+        margin: 1em 0;
+        min-width: 240px;
+        width: 45%;
+    }
 }
