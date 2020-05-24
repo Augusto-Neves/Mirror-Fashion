@@ -1,5 +1,5 @@
 let $input_quantidade = document.querySelector("#qtd")
-let $output_quantidade = document.querySelector("#total")
+let $output_total = document.querySelector("#total")
 
 //Função anônima resposável pela a soma do valor total a ser pago na compra
 $input_quantidade.oninput = function() {
